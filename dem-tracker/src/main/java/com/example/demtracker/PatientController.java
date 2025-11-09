@@ -9,19 +9,19 @@ import java.util.Map;
 @RequestMapping("/patients")
 public class PatientController {
 
-    private Map<String, PatientLocation> patientLocations = new HashMap<>();
+    private Map<String, PatientLocation> patientsLocations = new HashMap<>();
 
     // GET patient location
     @GetMapping("/{id}/location")
     public PatientLocation getLocation(@PathVariable String id) {
         // return location if exists, else default 0,0
-        return patientLocations.getOrDefault(id, new PatientLocation(0.0, 0.0));
+        return patientsLocations.getOrDefault(id, new PatientLocation(0.0, 0.0));
     }
 
     // POST update patient location
     @PostMapping("/{id}/location")
     public Map<String, String> updateLocation(@PathVariable String id, @RequestBody PatientLocation location) {
-        patientLocations.put(id, location);
+        patientsLocations.put(id, location);
         return Map.of("status", "updated");
     }
 
