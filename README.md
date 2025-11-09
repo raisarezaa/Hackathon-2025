@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,7 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+# Hackathon-2025
+An app targeted towards individuals with dementia, benefitting both those individuals and their caretakers with a tracking app provided with maps, alerts, and more.
+>>>>>>> 3b3d6fb210232dd7141b2e316837efb7a69c7df6
